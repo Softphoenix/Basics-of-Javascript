@@ -26,10 +26,10 @@ console.log(myAge);
 // arrays in js : array are very useful datatype, a very kind of value for storing relected
 // data that can't br express as a list of  data 
 let age = 30;
-let userName = `azeez
-rasheed
-adeyemi
-adekunle`;
+let userName = `1. azeez
+2. rasheed
+3. adeyemi
+4. adekunle`;
 alert(userName)
 let hobbies = ['sports', 'cooking', 'reading', 'football', 300,150];
 
@@ -112,7 +112,7 @@ alert(courseGoals);
 let onlineCourse = {
   name:  'physics',
   price: 40000,
-  Goals: [ 'to become a Physicist', 'to become Educated',
+  goals: [ 'to become a Physicist', 'to become Educated',
    'to become a good citizen of the country' ],
 }
 
@@ -173,6 +173,88 @@ let person = {
 person.greet(); 
 
 //console class
+
+const interestRate = 0.3;
+console.log(interestRate)
+
+// primitive data type(String, number, boolean, Undefined, null)
+
+let name = 'azeez' // string
+let agi = 30;  // number
+let isApproved = true;  // boolean
+let firstNames = undefined; // undefined
+let selectedColor = null; // null 
+
+// Non primitive data type || Reference data type
+//(this inlude Object, Array, Funtion)
+
+// // creating object 
+let myLoveName = ['precious', 'kenny', 'fumyth', 'luba', 'latifa', 5]
+console.log(myLoveName)
+console.log(myLoveName[4].concat(' Azeez'))
+
+
+
+let pupil ={
+   name: 'softphoenix',
+   age: 40,
+   sex:' male',
+}
+console.log(pupil)
+
+// We can asign new variable to the objecyt in two Notation
+// 1. Dot Notation
+// 2. Bracket Notation
+
+// Dot Notation
+
+ pupil.name = 'kenny';
+ pupil.age = 15
+ pupil.sex = 'male'
+ console.log(pupil.name, pupil.age, pupil.sex)
+
+ // Bracket Notation
+  let selection = 'name'
+  person[selection] = 'Azeez',
+
+  console.log(selection)
+
+  // function
+
+  function greet(name, lastName) {
+    console.log('hello ' + name + '' + lastName);
+  }
+  greet('john ', 'wick');
+  greet('Azeez ', 'rasheed');
+
+  // calculating a value
+  function square(number, value) {
+    return number * number / value;
+  }
+  console.log(square(4, 2));
+
+
+  // split 
+  let js = 'javascriptbasic'
+  const charlsjava = js.split('')
+  console.log(charlsjava)
+
+  // array constructor with single parameters
+
+  const fruits = [2];
+  console.log(fruits.lenght)
+  console.log(fruits[0])
+
+// array constructor with multiple parameters
+const fruit = new Array('Apple', 'Banana', 'mango');
+
+console.log(fruit.length); 
+console.log(fruits[0]);   
+
+const arr = Array()
+console.log(arr)
+
+
 
 
 
